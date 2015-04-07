@@ -1,0 +1,12 @@
+[package]
+
+name = "voxel moxel"
+version = "0.0.1"
+authors = [ "Dmitry Kharitonov <geakstr@me.com>" ]
+
+[[bin]]
+
+name = "voxel_moxel"
+
+[dependencies.gl]
+git = "https://github.com/bjz/gl-rs"
